@@ -1,11 +1,12 @@
 import {View, Text} from 'react-native';
 import React from 'react';
+import DefaultLayout from '../../components/layouts/DefaultLayout';
 
 const NetWork = () => {
   return (
-    <View>
+    <DefaultLayout>
       <Text>NetWork</Text>
-    </View>
+    </DefaultLayout>
   );
 };
 
