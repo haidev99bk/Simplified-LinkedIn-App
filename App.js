@@ -4,6 +4,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import MainTab from './src/navigations/MainTab';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
+import ContextProvider from './ContextProvider';
 
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
@@ -14,13 +15,15 @@ function App() {
 
   return (
     <NavigationContainer>
-      <SafeAreaProvider>
-        <StatusBar
-          barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-          backgroundColor={backgroundStyle.backgroundColor}
-        />
-        <MainTab />
-      </SafeAreaProvider>
+      <ContextProvider>
+        <SafeAreaProvider>
+          <StatusBar
+            barStyle={isDarkMode ? 'light-content' : 'dark-content'}
+            backgroundColor={backgroundStyle.backgroundColor}
+          />
+          <MainTab />
+        </SafeAreaProvider>
+      </ContextProvider>
     </NavigationContainer>
   );
 }

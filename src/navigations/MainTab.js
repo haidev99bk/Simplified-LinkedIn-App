@@ -1,12 +1,16 @@
-import React, {useMemo} from 'react';
+import React, {useCallback, useMemo} from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {getMainTabRoutes} from '../utils/routes';
+import Icon from '../components/atoms/Icon';
 
 const Tab = createBottomTabNavigator();
 
 export default function MainTab() {
-  // add role
   const routes = useMemo(() => getMainTabRoutes(), []);
+
+  const renderTabIcon = useCallback((color, route) => {
+    return <Icon name={route.icon} size={20} color={color} />;
+  }, []);
 
   return (
     <Tab.Navigator>
@@ -17,8 +21,8 @@ export default function MainTab() {
             name={route.name}
             component={route.screen}
             options={{
-              // tabBarIcon: <Icon />,
               tabBarLabel: route.label,
+              tabBarIcon: ({color}) => renderTabIcon(color, route),
             }}
           />
         );

@@ -7,19 +7,19 @@ export const mainTabNavigationRoutes = [
   {
     name: MainTabPages.NetWork,
     screen: UserAndFollowers,
-    icon: 'home_2',
+    icon: 'home',
     label: 'Network',
   },
   {
     name: MainTabPages.MyArticles,
     screen: MyArticles,
-    icon: 'home_2',
+    icon: 'book',
     label: 'My Articles',
   },
   {
     name: MainTabPages.FollowerArticles,
     screen: FollowerArticles,
-    icon: 'home_2',
+    icon: 'newspaper-o',
     label: "Follower's Articles",
   },
 ];

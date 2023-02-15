@@ -1,4 +1,4 @@
-import {View, Text, StyleSheet, StatusBar} from 'react-native';
+import {View, StyleSheet, StatusBar} from 'react-native';
 import React from 'react';
 import color from '../../styles/colors';
 import {deviceHasNotch} from '../../utils/common';

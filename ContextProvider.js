@@ -4,7 +4,7 @@ import {getUserInfo} from './src/service/userSevices';
 import ThemeContext from './src/contexts/ThemeContext';
 
 export default function ContextProvider({children}) {
-  const [userInfo, setUserInfo] = useState({}); // get from AsyncStorage
+  const [userInfo, setUserInfo] = useState(null); // get from AsyncStorage
   const [theme, setTheme] = useState('light');
 
   useEffect(() => {
@@ -14,8 +14,10 @@ export default function ContextProvider({children}) {
   }, []);
 
   return (
-    <ThemeContext.Provider value={[theme, setTheme]}>
-      <UserContext.Provider value={userInfo}>{children}</UserContext.Provider>
-    </ThemeContext.Provider>
+    <UserContext.Provider value={userInfo}>
+      <ThemeContext.Provider value={[theme, setTheme]}>
+        {children}
+      </ThemeContext.Provider>
+    </UserContext.Provider>
   );
 }

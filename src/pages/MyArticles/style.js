@@ -1,5 +1,4 @@
-const {StyleSheet} = require('react-native/types');
-
+import {StyleSheet} from 'react-native';
 const styles = StyleSheet.create({});
 
 export default styles;
