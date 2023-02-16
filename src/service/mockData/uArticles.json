@@ -6,7 +6,8 @@
       "publicationDate": "2022-03-10",
       "description": "In this article, we explore the numerous benefits of practicing yoga, including improved flexibility, stress relief, and mental clarity.",
       "thumbnailImage": "https://picsum.photos/id/11/600/300",
-      "likes": 15
+      "likes": 15,
+      "comments": 15
     },
     {
       "articleId": 2,
@@ -14,7 +15,8 @@
       "publicationDate": "2022-03-02",
       "description": "In this article, we provide practical advice for eating healthy while sticking to a tight budget.",
       "thumbnailImage": "https://picsum.photos/id/12/600/300",
-      "likes": 23
+      "likes": 23,
+      "comments": 23
     },
     {
       "articleId": 3,
@@ -22,7 +24,8 @@
       "publicationDate": "2022-02-28",
       "description": "In this article, we take a deep dive into the Great Barrier Reef, one of the world's most breathtaking natural wonders.",
       "thumbnailImage": "https://picsum.photos/id/13/600/300",
-      "likes": 17
+      "likes": 17,
+      "comments": 17
     },
     {
       "articleId": 4,
@@ -30,7 +33,8 @@
       "publicationDate": "2022-02-22",
       "description": "In this article, we share our top tips for running a successful online business, from building a strong brand to effective marketing strategies.",
       "thumbnailImage": "https://picsum.photos/id/14/600/300",
-      "likes": 12
+      "likes": 12,
+      "comments": 12
     },
     {
       "articleId": 5,
@@ -38,7 +42,8 @@
       "publicationDate": "2022-02-15",
       "description": "In this article, we explore the science behind the power of positive thinking and how it can improve your life.",
       "thumbnailImage": "https://picsum.photos/id/15/600/300",
-      "likes": 20
+      "likes": 20,
+      "comments": 20
     },
     {
       "articleId": 6,
@@ -46,7 +51,8 @@
       "publicationDate": "2022-02-10",
       "description": "In this article, we share our tips for planning a budget-friendly vacation without sacrificing fun or comfort.",
       "thumbnailImage": "https://picsum.photos/id/16/600/300",
-      "likes": 8
+      "likes": 8,
+      "commentss": 8
     },
     {
       "articleId": 7,
@@ -54,7 +60,8 @@
       "publicationDate": "2022-02-05",
       "description": "In this article, we provide 10 easy and affordable DIY home improvement projects that can add value and style to your home.",
       "thumbnailImage": "https://picsum.photos/id/17/600/300",
-      "likes": 14
+      "likes": 14,
+      "comments": 14
     },
     {
       "articleId": 8,
@@ -62,7 +69,8 @@
       "publicationDate": "2022-02-01",
       "description": "In this article, we highlight some of the best places to visit in Europe, from historic cities to scenic countryside.",
       "thumbnailImage": "https://picsum.photos/id/18/600/300",
-      "likes": 19
+      "likes": 19,
+      "comments": 19
     },
     {
       "articleId": 9,
@@ -70,7 +78,8 @@
       "publicationDate": "2022-01-31",
       "description": "In this article, we share our tips for cooking the perfect steak.",
       "thumbnailImage": "https://picsum.photos/id/19/600/300",
-      "likes": 35
+      "likes": 35,
+      "comments": 35
     },
     {
       "articleId": 10,
@@ -78,7 +87,8 @@
       "publicationDate": "2022-02-10",
       "description": "In this article, we share our tips for planning a budget-friendly vacation without sacrificing fun or comfort.",
       "thumbnailImage": "https://picsum.photos/id/20/600/300",
-      "likes": 8
+      "likes": 8,
+      "comments": 8
     },
     {
       "articleId": 11,
@@ -86,7 +96,8 @@
       "publicationDate": "2022-02-15",
       "description": "In this article, we provide 10 easy and affordable DIY home improvement projects that can add value and style to your home.",
       "thumbnailImage": "https://picsum.photos/id/21/600/300",
-      "likes": 14
+      "likes": 14,
+      "comments": 14
     },
     {
       "articleId": 12,
@@ -94,7 +105,8 @@
       "publicationDate": "2022-02-01",
       "description": "In this article, we highlight some of the best places to visit in Europe, from historic cities to scenic countryside.",
       "thumbnailImage": "https://picsum.photos/id/22/600/300",
-      "likes": 19
+      "likes": 19,
+      "comments": 19
     },
     {
       "articleId": 13,
@@ -102,7 +114,8 @@
       "publicationDate": "2022-01-31",
       "description": "In this article, we share our tips for cooking the perfect steak.",
       "thumbnailImage": "https://picsum.photos/id/23/600/300",
-      "likes": 35
+      "likes": 35,
+      "comments": 35
     }
   ]
 }

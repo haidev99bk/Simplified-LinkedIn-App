@@ -16,9 +16,8 @@ export const typography = {
     letterSpacing: -0.5,
   },
   paragraph: {
-    fontSize: 12,
-    lineHeight: 18,
-    letterSpacing: 0.1,
+    fontSize: 14,
+    lineHeight: 16,
   },
   caption: {
     fontSize: 10,

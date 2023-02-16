@@ -1,12 +1,23 @@
-import {View, Text} from 'react-native';
-import React from 'react';
+import React, {useCallback} from 'react';
+import ArticleListLayout from '../../components/layouts/ArticlesListLayout/ArticleListLayout';
+import useArticles from '../../hooks/useArticles';
 
-const MyArticles = () => {
+const FollowerArticles = ({navigation, route}) => {
+  const [loginedUser, ownerInfo, articles] = useArticles(route?.params?.userId);
+
+  const goBack = useCallback(() => {
+    navigation.goBack();
+  }, [navigation]);
+
   return (
-    <View>
-      <Text>MyArticles</Text>
-    </View>
+    <ArticleListLayout
+      loginedUser={loginedUser}
+      articles={articles}
+      articlesOwner={ownerInfo}
+      title="My Articles"
+      goBack={goBack}
+    />
   );
 };
 
-export default MyArticles;
+export default FollowerArticles;

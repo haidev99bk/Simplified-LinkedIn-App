@@ -1,15 +1,19 @@
 import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
-  exceptionContainer: {
+  headerView: {
+    flexDirection: 'row',
+    width: '100%',
+  },
+  avatarContainer: {
     justifyContent: 'center',
     alignItems: 'center',
+  },
+  userInfoContainer: {
+    marginLeft: 4,
     flex: 1,
-    padding: 16,
   },
-  exceptionText: {
-    textAlign: 'center',
-  },
+  headerRight: {},
 });
 
 export default styles;

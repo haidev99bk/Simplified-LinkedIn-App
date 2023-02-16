@@ -1,48 +1,38 @@
-import {View, Text, FlatList} from 'react-native';
-import React, {useContext, useEffect, useState} from 'react';
-import {getArticles} from '../../service/articleServices';
+import React, {useCallback} from 'react';
+
+import ArticleListLayout from '../../components/layouts/ArticlesListLayout/ArticleListLayout';
+import useArticles from '../../hooks/useArticles';
 import DefaultLayout from '../../components/layouts/DefaultLayout';
-import ArticleCard from '../../components/molecules/ArticleCard';
-import UserContext from '../../contexts/UserContext';
-import {getUserInfo} from '../../service/userSevices';
+import {View, Text} from 'react-native';
+import styles from './style';
 
 const FollowerArticles = ({navigation, route}) => {
-  const loginedUser = useContext(UserContext);
-  const {userId} = route.params;
-  const [ownerInfo, setOwnerInfo] = useState([]);
-  const [articles, setArticles] = useState([]);
-  console.log('artciles ==> ', articles);
+  const [loginedUser, ownerInfo, articles] = useArticles(route?.params?.userId);
 
-  useEffect(() => {
-    const res = getArticles(userId);
-    if (res) {
-      setArticles(res);
-    }
+  const goBack = useCallback(() => {
+    navigation.goBack();
+  }, [navigation]);
 
-    const _owner = getUserInfo(userId);
-    if (_owner) {
-      setOwnerInfo(_owner);
-    }
-  }, [userId]);
-
-  const renderItem = ({item}) => {
+  if (!route?.params?.userId) {
     return (
-      <ArticleCard
-        showLike={loginedUser.userId !== userId}
-        user={ownerInfo}
-        article={item}
-      />
+      <DefaultLayout>
+        <View style={styles.exceptionContainer}>
+          <Text style={styles.exceptionText}>
+            Please comeback to Network screen and select the follower first.
+          </Text>
+        </View>
+      </DefaultLayout>
     );
-  };
+  }
 
   return (
-    <DefaultLayout>
-      <FlatList
-        data={articles}
-        renderItem={renderItem}
-        keyExtractor={item => item.articleId}
-      />
-    </DefaultLayout>
+    <ArticleListLayout
+      loginedUser={loginedUser}
+      articles={articles}
+      articlesOwner={ownerInfo}
+      title="Follower Articles"
+      goBack={goBack}
+    />
   );
 };
 

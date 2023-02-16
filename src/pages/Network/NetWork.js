@@ -37,6 +37,14 @@ const NetWork = props => {
     setFollowers(res);
   }, [user]);
 
+  React.useEffect(() => {
+    const unsubscribe = navigation.addListener('tabPress', e => {
+      console.log('e =>', e);
+    });
+
+    return unsubscribe;
+  }, [navigation]);
+
   const renderItem = ({item}) => {
     return (
       <UserCard
@@ -55,7 +63,7 @@ const NetWork = props => {
   };
 
   return (
-    <DefaultLayout>
+    <DefaultLayout showBackButton={false} title={'Network'}>
       <View style={styles.container}>
         <SectionList
           sections={data}

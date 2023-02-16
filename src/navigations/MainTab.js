@@ -2,6 +2,7 @@ import React, {useCallback, useMemo} from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {getMainTabRoutes} from '../utils/routes';
 import Icon from '../components/atoms/Icon';
+import {Text} from 'react-native';
 
 const Tab = createBottomTabNavigator();
 
@@ -10,6 +11,10 @@ export default function MainTab() {
 
   const renderTabIcon = useCallback((color, route) => {
     return <Icon name={route.icon} size={20} color={color} />;
+  }, []);
+
+  const renderLable = useCallback((label, color) => {
+    return <Text style={{paddingBottom: 2, color: color}}>{label}</Text>;
   }, []);
 
   return (
@@ -21,7 +26,8 @@ export default function MainTab() {
             name={route.name}
             component={route.screen}
             options={{
-              tabBarLabel: route.label,
+              headerShown: false,
+              tabBarLabel: ({color}) => renderLable(route.label, color),
               tabBarIcon: ({color}) => renderTabIcon(color, route),
             }}
           />
