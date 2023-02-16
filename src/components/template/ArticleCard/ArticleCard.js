@@ -8,7 +8,6 @@ export default function ArticleCard(props) {
   const {user, article} = props;
   var dateAr = article.publicationDate.split('-');
   var newDate = dateAr[2] + '-' + dateAr[1] + '-' + dateAr[0].slice(-2);
-  console.log('dateAr ==> ', dateAr, newDate);
 
   const handleLikeAction = () => {};
 

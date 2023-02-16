@@ -11,7 +11,6 @@ export default function DefaultLayout(props) {
   const navigation = useNavigation();
 
   const handleBack = () => {
-    console.log('click back');
     if (goBack) {
       goBack();
       return;
