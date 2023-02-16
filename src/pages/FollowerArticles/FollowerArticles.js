@@ -7,7 +7,8 @@ import {View, Text} from 'react-native';
 import styles from './style';
 
 const FollowerArticles = ({navigation, route}) => {
-  const [loginedUser, ownerInfo, articles] = useArticles(route?.params?.userId);
+  const [loginedUser, ownerInfo, articles, articlesLiked, handleLike] =
+    useArticles(route?.params?.userId);
 
   const goBack = useCallback(() => {
     navigation.goBack();
@@ -32,6 +33,8 @@ const FollowerArticles = ({navigation, route}) => {
       articlesOwner={ownerInfo}
       title="Follower Articles"
       goBack={goBack}
+      handleLike={handleLike}
+      articlesLiked={articlesLiked}
     />
   );
 };

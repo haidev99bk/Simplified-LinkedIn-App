@@ -1,5 +1,6 @@
 import {useId} from 'react';
 import {getUserInfo} from './userSevices';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const Articles = require('./mockData/uArticles.json');
 

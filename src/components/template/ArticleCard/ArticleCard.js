@@ -1,15 +1,23 @@
 import {View, Text, Image} from 'react-native';
-import React from 'react';
+import React, {useCallback} from 'react';
 import styles from './styles';
 import ArticleActionsBottomBar from '../../organisms/ArticleActionsBottomBar';
 import ArticleHeaderBar from '../../organisms/ArticleHeaderBar';
 
 export default function ArticleCard(props) {
-  const {user, article} = props;
+  const {user, article, handleLike, hasLiked} = props;
   var dateAr = article.publicationDate.split('-');
   var newDate = dateAr[2] + '-' + dateAr[1] + '-' + dateAr[0].slice(-2);
 
-  const handleLikeAction = () => {};
+  const handleLikeAction = useCallback(
+    articleId => {
+      if (handleLike) {
+        console.log('run handleLikeAction => ', articleId);
+        handleLike(articleId);
+      }
+    },
+    [handleLike],
+  );
 
   const cardActions = [
     {
@@ -53,9 +61,11 @@ export default function ArticleCard(props) {
         </View>
       </View>
       <ArticleActionsBottomBar
+        articleId={article.articleId}
         actions={cardActions}
         likes={article.likes}
         comments={article.comments}
+        hasLiked={hasLiked}
       />
     </View>
   );

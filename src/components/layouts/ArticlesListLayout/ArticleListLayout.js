@@ -1,7 +1,8 @@
 import {FlatList} from 'react-native';
-import React from 'react';
+import React, {useCallback} from 'react';
 import DefaultLayout from '../DefaultLayout';
 import ArticleCard from '../../template/ArticleCard';
+import styles from './styles';
 
 const ArticleListLayout = props => {
   const {
@@ -9,22 +10,35 @@ const ArticleListLayout = props => {
     loginedUser,
     articlesOwner,
     title,
-    isFollowerArticles = true,
     goBack,
+    handleLike,
+    articlesLiked,
   } = props;
+
+  const _handleLike = useCallback(
+    articleId => {
+      if (loginedUser.userId !== articlesOwner.userId && handleLike) {
+        handleLike(articleId);
+      }
+    },
+    [loginedUser, articlesOwner, handleLike],
+  );
+  console.log('articlesLiked ArticleListLayout ==> ', articlesLiked);
 
   const renderItem = ({item}) => {
     return (
       <ArticleCard
-        showLike={loginedUser.userId !== articlesOwner.userId}
+        canLike={loginedUser.userId !== articlesOwner.userId}
+        handleLike={_handleLike}
         user={articlesOwner}
         article={item}
+        hasLiked={articlesLiked && articlesLiked.includes(item.articleId)}
       />
     );
   };
 
   return (
-    <DefaultLayout title={title} goBack={goBack}>
+    <DefaultLayout style={styles.container} title={title} goBack={goBack}>
       <FlatList
         data={articles}
         renderItem={renderItem}

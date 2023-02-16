@@ -6,7 +6,7 @@ import Icon from '../../atoms/Icon';
 import color from '../../../styles/colors';
 
 export default function ArticleActionsBottomBar(props) {
-  const {actions, comments, likes} = props;
+  const {actions, comments, likes, hasLiked, articleId} = props;
   return (
     <View>
       <View style={styles.actionsInfo}>
@@ -24,13 +24,23 @@ export default function ArticleActionsBottomBar(props) {
       <View style={styles.actionsContainer}>
         <View style={styles.container}>
           {actions.map((action, index) => {
+            let iconFamily = action.iconFamily;
+            let iconName = action.iconName;
+            let iconColor;
+
+            if (action.label === 'Like' && hasLiked) {
+              iconFamily = 'AntDesign';
+              iconName = 'like1';
+              iconColor = color.mainBlue;
+            }
             return (
               <ArticleAction
                 key={action.label + index}
-                iconFamily={action.iconFamily}
-                iconName={action.iconName}
+                iconFamily={iconFamily}
+                iconName={iconName}
+                iconColor={iconColor && iconColor}
                 label={action.label}
-                onPress={action.onPress}
+                onPress={() => action.onPress(articleId)}
               />
             );
           })}

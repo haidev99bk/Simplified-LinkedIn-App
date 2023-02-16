@@ -9,7 +9,7 @@ import {MainTabPages} from '../../constants/common';
 
 const NetWork = props => {
   const {navigation} = props;
-  const user = useContext(UserContext);
+  const [user] = useContext(UserContext);
   const [followers, setFollowers] = useState([]);
   const data = useMemo(() => {
     return [
@@ -36,14 +36,6 @@ const NetWork = props => {
     const res = getFollowers();
     setFollowers(res);
   }, [user]);
-
-  React.useEffect(() => {
-    const unsubscribe = navigation.addListener('tabPress', e => {
-      console.log('e =>', e);
-    });
-
-    return unsubscribe;
-  }, [navigation]);
 
   const renderItem = ({item}) => {
     return (

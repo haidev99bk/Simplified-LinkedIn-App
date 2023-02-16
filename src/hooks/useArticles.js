@@ -5,7 +5,8 @@ const {useContext, useState, useEffect} = require('react');
 const {getArticles} = require('../service/articleServices');
 
 const useArticles = userId => {
-  const loginedUser = useContext(UserContext);
+  const [loginedUser, articlesLiked, handleLike] = useContext(UserContext);
+
   const _userId = userId ? userId : loginedUser.userId;
 
   const [ownerInfo, setOwnerInfo] = useState([]);
@@ -23,7 +24,7 @@ const useArticles = userId => {
     }
   }, [_userId]);
 
-  return [loginedUser, ownerInfo, articles];
+  return [loginedUser, ownerInfo, articles, articlesLiked, handleLike];
 };
 
 export default useArticles;
