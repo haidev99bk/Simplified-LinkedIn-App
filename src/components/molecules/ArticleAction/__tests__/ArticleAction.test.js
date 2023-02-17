@@ -19,7 +19,7 @@ test('FollowerArticles rendered correctly', () => {
         iconName="like1"
         iconColor={color.mainBlue}
         label="Like"
-        onPress
+        onPress={() => {}}
       />,
     )
     .toJSON();
