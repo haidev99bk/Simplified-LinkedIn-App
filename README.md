@@ -14,4 +14,5 @@
 # How do I optimize performance for this app ?
 
 **1. Using FlatList and SectionList instead of ScrollView**: By using them, only visible data will be rendered.
+
 **2. Using useCallback, useMemo and React.memo**: They are a very common method for optimization in React.js/React Native. The general idea is to avoid unnecessarily re-rendering (React.memo) or recalculating an expensive expression (useCallback, useMemo).
