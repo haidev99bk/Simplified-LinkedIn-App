@@ -6,12 +6,10 @@ jest.mock('react-native-device-info', () => {
 });
 import React from 'react';
 import renderer from 'react-test-renderer';
-import {getArticles} from '../../../../service/articleServices';
 import ArticleAction from '../ArticleAction';
 import color from '../../../../styles/colors';
-console.log('getArticles ==> ', getArticles(1), typeof getArticles(1));
 
-test('FollowerArticles rendered correctly', () => {
+test('ArticleAction rendered correctly', () => {
   const snap = renderer
     .create(
       <ArticleAction

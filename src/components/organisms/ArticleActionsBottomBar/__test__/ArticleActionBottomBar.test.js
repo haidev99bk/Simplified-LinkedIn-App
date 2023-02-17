@@ -37,7 +37,7 @@ const props = {
   articleId: 2,
 };
 
-test('FollowerArticles rendered correctly', () => {
+test('ArticleActionsBottomBar rendered correctly', () => {
   const snap = render(<ArticleActionsBottomBar {...props} />).toJSON();
 
   expect(snap).toMatchSnapshot();

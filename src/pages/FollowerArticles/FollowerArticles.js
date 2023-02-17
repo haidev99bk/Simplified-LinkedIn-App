@@ -35,6 +35,7 @@ const FollowerArticles = ({navigation, route}) => {
       goBack={goBack}
       handleLike={handleLike}
       articlesLiked={articlesLiked}
+      navigation={navigation}
     />
   );
 };

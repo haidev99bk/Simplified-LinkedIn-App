@@ -5,10 +5,10 @@ jest.mock('react-native-device-info', () => {
   };
 });
 import React from 'react';
-import renderer from 'react-test-renderer';
+import {render} from '@testing-library/react-native';
 import App from '../App';
-test('FollowerArticles rendered correctly', () => {
-  const snap = renderer.create(<App />).toJSON();
+test('App rendered correctly', () => {
+  const snap = render(<App />).toJSON();
 
   expect(snap).toMatchSnapshot();
 });

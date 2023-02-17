@@ -3,14 +3,12 @@ import React from 'react';
 import color from '../../styles/colors';
 import {deviceHasNotch} from '../../utils/common';
 import ScreenHeader from '../organisms/ScreenHeader';
-import {useNavigation} from '@react-navigation/native';
 
 export default function DefaultLayout(props) {
-  const {children, style, showBackButton, title, goBack} = props;
+  const {children, style, showBackButton, title, goBack, navigation} = props;
   const paddingTopStyle = {
     paddingTop: deviceHasNotch ? 42 : StatusBar.currentHeight,
   };
-  const navigation = useNavigation();
 
   const handleBack = () => {
     if (goBack) {

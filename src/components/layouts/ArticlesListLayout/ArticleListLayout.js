@@ -13,6 +13,7 @@ const ArticleListLayout = props => {
     goBack,
     handleLike,
     articlesLiked,
+    navigation,
   } = props;
 
   console.log('articles here => ', articles);
@@ -39,7 +40,11 @@ const ArticleListLayout = props => {
   };
 
   return (
-    <DefaultLayout style={styles.container} title={title} goBack={goBack}>
+    <DefaultLayout
+      style={styles.container}
+      title={title}
+      goBack={goBack}
+      navigation={navigation}>
       <FlatList
         data={articles}
         renderItem={renderItem}

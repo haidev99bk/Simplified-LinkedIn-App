@@ -16,6 +16,7 @@ const FollowerArticles = ({navigation, route}) => {
       articlesOwner={ownerInfo}
       title="My Articles"
       goBack={goBack}
+      navigation={navigation}
     />
   );
 };
