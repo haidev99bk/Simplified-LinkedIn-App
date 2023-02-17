@@ -1,4 +1,4 @@
-const {Platform} = require('react-native/types');
+const {Platform} = require('react-native');
 
 const shadow = Platform.select({
   ios: {

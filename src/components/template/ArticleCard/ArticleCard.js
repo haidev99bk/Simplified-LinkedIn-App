@@ -12,7 +12,6 @@ export default function ArticleCard(props) {
   const handleLikeAction = useCallback(
     articleId => {
       if (handleLike) {
-        console.log('run handleLikeAction => ', articleId);
         handleLike(articleId);
       }
     },
@@ -43,6 +42,8 @@ export default function ArticleCard(props) {
     },
   ];
 
+  const likesNumber = hasLiked ? article.likes + 1 : article.likes;
+
   return (
     <View style={styles.container}>
       <ArticleHeaderBar
@@ -63,7 +64,7 @@ export default function ArticleCard(props) {
       <ArticleActionsBottomBar
         articleId={article.articleId}
         actions={cardActions}
-        likes={article.likes}
+        likes={likesNumber}
         comments={article.comments}
         hasLiked={hasLiked}
       />

@@ -23,7 +23,6 @@ const ArticleListLayout = props => {
     },
     [loginedUser, articlesOwner, handleLike],
   );
-  console.log('articlesLiked ArticleListLayout ==> ', articlesLiked);
 
   const renderItem = ({item}) => {
     return (

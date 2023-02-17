@@ -12,7 +12,6 @@ export default function ContextProvider({children}) {
   const handleLike = articleId => {
     let newArr;
     if (articlesLiked.includes(articleId)) {
-      console.log('articlesLiked ==> ', typeof articlesLiked);
       newArr = articlesLiked.filter(a => a !== articleId);
       setArticlesLiked(newArr);
     } else {
