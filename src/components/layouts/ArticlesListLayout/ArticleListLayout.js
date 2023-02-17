@@ -15,6 +15,8 @@ const ArticleListLayout = props => {
     articlesLiked,
   } = props;
 
+  console.log('articles here => ', articles);
+
   const _handleLike = useCallback(
     articleId => {
       if (loginedUser.userId !== articlesOwner.userId && handleLike) {

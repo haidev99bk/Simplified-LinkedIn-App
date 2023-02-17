@@ -1,14 +1,14 @@
 import 'react-native';
 jest.mock('react-native-device-info', () => {
   return {
-    hasNotch: () => 4,
+    hasNotch: () => true,
   };
 });
 import React from 'react';
-import ArticleListLayout from '../ArticleListLayout';
 import renderer from 'react-test-renderer';
-test('ArticleListLayout rendered correctly', () => {
-  const snap = renderer.create(<ArticleListLayout />).toJSON();
+import App from '../App';
+test('FollowerArticles rendered correctly', () => {
+  const snap = renderer.create(<App />).toJSON();
 
   expect(snap).toMatchSnapshot();
 });
