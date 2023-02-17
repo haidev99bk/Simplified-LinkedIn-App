@@ -7,7 +7,9 @@ import {useNavigation} from '@react-navigation/native';
 
 export default function DefaultLayout(props) {
   const {children, style, showBackButton, title, goBack} = props;
-  const paddingTopStyle = deviceHasNotch ? 0 : StatusBar.currentHeight;
+  const paddingTopStyle = {
+    paddingTop: deviceHasNotch ? 42 : StatusBar.currentHeight,
+  };
   const navigation = useNavigation();
 
   const handleBack = () => {
