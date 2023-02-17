@@ -7,6 +7,7 @@ import color from '../../../styles/colors';
 
 export default function ArticleActionsBottomBar(props) {
   const {actions, comments, likes, hasLiked, articleId} = props;
+
   return (
     <View>
       <View style={styles.actionsInfo}>
@@ -40,7 +41,9 @@ export default function ArticleActionsBottomBar(props) {
                 iconName={iconName}
                 iconColor={iconColor && iconColor}
                 label={action.label}
-                onPress={() => action.onPress(articleId)}
+                onPress={() => {
+                  action?.onPress && action.onPress(articleId);
+                }}
               />
             );
           })}
