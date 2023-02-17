@@ -8,12 +8,13 @@ const styles = StyleSheet.create({
     padding: 8,
     flexDirection: 'row',
     alignItems: 'center',
-    ...shadow.normal,
     backgroundColor: color.white,
+    ...shadow.normal,
   },
   title: {
     ...fontWeight.bold,
     textTransform: 'uppercase',
+    color: color.mainBlue,
   },
 });
 
