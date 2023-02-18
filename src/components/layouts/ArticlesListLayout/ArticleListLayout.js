@@ -1,8 +1,8 @@
 import {FlatList} from 'react-native';
 import React, {useCallback} from 'react';
 import DefaultLayout from '../DefaultLayout';
-import ArticleCard from '../../template/ArticleCard';
 import styles from './styles';
+import ArticleCard from '../ArticleCard';
 
 const ArticleListLayout = props => {
   const {

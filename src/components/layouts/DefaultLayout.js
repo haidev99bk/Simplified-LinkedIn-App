@@ -6,8 +6,9 @@ import ScreenHeader from '../organisms/ScreenHeader';
 
 export default function DefaultLayout(props) {
   const {children, style, showBackButton, title, goBack, navigation} = props;
+
   const paddingTopStyle = {
-    paddingTop: deviceHasNotch ? 42 : StatusBar.currentHeight,
+    paddingTop: deviceHasNotch ? 42 : 0,
   };
 
   const handleBack = () => {

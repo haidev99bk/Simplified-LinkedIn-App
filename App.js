@@ -16,13 +16,13 @@ function App() {
   return (
     <NavigationContainer>
       <ContextProvider>
-        <SafeAreaProvider>
-          <StatusBar
-            barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-            backgroundColor={backgroundStyle.backgroundColor}
-          />
-          <MainTab />
-        </SafeAreaProvider>
+        {/* <SafeAreaProvider> */}
+        <StatusBar
+          barStyle={isDarkMode ? 'light-content' : 'dark-content'}
+          backgroundColor={backgroundStyle.backgroundColor}
+        />
+        <MainTab />
+        {/* </SafeAreaProvider> */}
       </ContextProvider>
     </NavigationContainer>
   );

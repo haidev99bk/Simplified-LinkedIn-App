@@ -40,12 +40,12 @@ const NetWork = props => {
   const renderItem = ({item}) => {
     return (
       <UserCard
-        name={item.name}
-        avatar={item.avatar}
-        email={item.email}
-        address={item.address}
-        age={item.age}
-        onPress={() => onPressCard(item.userId)}
+        name={item?.name}
+        avatar={item?.avatar}
+        email={item?.email}
+        address={item?.address}
+        age={item?.age}
+        onPress={() => onPressCard(item?.userId)}
       />
     );
   };
@@ -60,7 +60,7 @@ const NetWork = props => {
         <SectionList
           sections={data}
           renderItem={renderItem}
-          keyExtractor={item => item.userId}
+          keyExtractor={item => item?.userId}
           renderSectionHeader={renderHeaderSection}
         />
       </View>
