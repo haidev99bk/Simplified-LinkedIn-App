@@ -14,7 +14,9 @@ After cloning this app, then do the following steps :
   - npm i --dev
 
 - **Run Android**: npm run android
-- **Run IOS**: npm run ios
+- **Run IOS**: 
+  - cd ios && pod install
+  - npm run ios
 - **Run Unit test**: npm run test
 - **Run E2E test**:
   - Android:
