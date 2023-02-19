@@ -1,0 +1,1950 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleListLayout rendered correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#f7f7f8",
+        "flex": 1,
+      },
+      {
+        "paddingTop": 42,
+      },
+      {
+        "backgroundColor": "#f3f2ee",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "flexDirection": "row",
+          "padding": 8,
+          "shadowColor": "#000",
+          "shadowOffset": {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.15,
+          "shadowRadius": 4,
+        },
+        {
+          "justifyContent": "space-between",
+        },
+      ]
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          [
+            {
+              "color": "#1566c2",
+              "fontSize": 30,
+            },
+            undefined,
+            {
+              "fontFamily": "anticon",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <Text
+      style={
+        {
+          "color": "#1566c2",
+          "fontWeight": "700",
+          "textTransform": "uppercase",
+        }
+      }
+    >
+      Follower Articles
+    </Text>
+  </View>
+  <RCTScrollView
+    data={
+      [
+        {
+          "articleId": 1,
+          "comments": 15,
+          "description": "In this article, we explore the numerous benefits of practicing yoga, including improved flexibility, stress relief, and mental clarity.",
+          "likes": 15,
+          "publicationDate": "2022-03-10",
+          "thumbnailImage": "https://picsum.photos/id/22/600/300",
+          "title": "The Benefits of Yoga for Mind and Body",
+        },
+        {
+          "articleId": 2,
+          "comments": 23,
+          "description": "In this article, we provide practical advice for eating healthy while sticking to a tight budget.",
+          "likes": 23,
+          "publicationDate": "2022-03-02",
+          "thumbnailImage": "https://picsum.photos/id/19/600/300",
+          "title": "10 Tips for Eating Healthy on a Budget",
+        },
+        {
+          "articleId": 3,
+          "comments": 17,
+          "description": "In this article, we take a deep dive into the Great Barrier Reef, one of the world's most breathtaking natural wonders.",
+          "likes": 17,
+          "publicationDate": "2022-02-28",
+          "thumbnailImage": "https://picsum.photos/id/18/600/300",
+          "title": "Exploring the Wonders of the Great Barrier Reef",
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={[]}
+    viewabilityConfigCallbackPairs={[]}
+  >
+    <View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "backgroundColor": "#fff",
+              "marginBottom": 16,
+              "padding": 16,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "flexDirection": "row",
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Image
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                source={
+                  {
+                    "uri": "https://randomuser.me/api/portraits/thumb/men/1.jpg",
+                  }
+                }
+                style={
+                  [
+                    {
+                      "height": 24,
+                      "width": 24,
+                    },
+                    {
+                      "height": 30,
+                      "width": 30,
+                    },
+                    false,
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                {
+                  "flex": 1,
+                  "marginLeft": 4,
+                }
+              }
+            >
+              <Text>
+                Alice
+              </Text>
+              <Text>
+                10-03-22
+              </Text>
+            </View>
+            <View
+              style={{}}
+            >
+              <Text
+                allowFontScaling={false}
+                selectable={false}
+                style={
+                  [
+                    {
+                      "color": undefined,
+                      "fontSize": 12,
+                    },
+                    undefined,
+                    {
+                      "fontFamily": "Entypo",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              {
+                "marginTop": 8,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontSize": 14,
+                  "lineHeight": 16,
+                }
+              }
+            >
+              In this article, we explore the numerous benefits of practicing yoga, including improved flexibility, stress relief, and mental clarity.
+            </Text>
+            <View
+              style={
+                {
+                  "backgroundColor": "#f8f9f9",
+                  "marginHorizontal": -16,
+                  "marginTop": 8,
+                  "paddingBottom": 16,
+                }
+              }
+            >
+              <Image
+                source={
+                  {
+                    "uri": "https://picsum.photos/id/22/600/300",
+                  }
+                }
+                style={
+                  {
+                    "height": 220,
+                    "width": "100%",
+                  }
+                }
+              />
+              <Text
+                style={
+                  {
+                    "fontWeight": "700",
+                    "padding": 16,
+                  }
+                }
+              >
+                The Benefits of Yoga for Mind and Body
+              </Text>
+            </View>
+          </View>
+          <View>
+            <View
+              style={
+                {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "paddingVertical": 8,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "backgroundColor": "#1566c2",
+                      "borderRadius": 12,
+                      "height": 20,
+                      "justifyContent": "center",
+                      "marginRight": 8,
+                      "width": 20,
+                    }
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    selectable={false}
+                    style={
+                      [
+                        {
+                          "color": "#fff",
+                          "fontSize": 12,
+                        },
+                        undefined,
+                        {
+                          "fontFamily": "anticon",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <Text>
+                  15
+                </Text>
+              </View>
+              <View>
+                <Text>
+                  15 comments
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "backgroundColor": "#f3f2ee",
+                  "height": 1,
+                }
+              }
+            />
+            <View>
+              <View
+                style={
+                  {
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "padding": 4,
+                  }
+                }
+              >
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "height": 24,
+                        "justifyContent": "space-between",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "alignItems": "center",
+                          "height": 20,
+                          "justifyContent": "center",
+                          "width": 20,
+                        }
+                      }
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        selectable={false}
+                        style={
+                          [
+                            {
+                              "color": undefined,
+                              "fontSize": 16,
+                            },
+                            undefined,
+                            {
+                              "fontFamily": "anticon",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            {},
+                          ]
+                        }
+                      >
+                        
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "fontWeight": "600",
+                        }
+                      }
+                    >
+                      Like
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "height": 24,
+                        "justifyContent": "space-between",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "alignItems": "center",
+                          "height": 20,
+                          "justifyContent": "center",
+                          "width": 20,
+                        }
+                      }
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        selectable={false}
+                        style={
+                          [
+                            {
+                              "color": undefined,
+                              "fontSize": 16,
+                            },
+                            undefined,
+                            {
+                              "fontFamily": "fontcustom",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            {},
+                          ]
+                        }
+                      >
+                        
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "fontWeight": "600",
+                        }
+                      }
+                    >
+                      Repost
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "height": 24,
+                        "justifyContent": "space-between",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "alignItems": "center",
+                          "height": 20,
+                          "justifyContent": "center",
+                          "width": 20,
+                        }
+                      }
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        selectable={false}
+                        style={
+                          [
+                            {
+                              "color": undefined,
+                              "fontSize": 16,
+                            },
+                            undefined,
+                            {
+                              "fontFamily": "FontAwesome",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            {},
+                          ]
+                        }
+                      >
+                        
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "fontWeight": "600",
+                        }
+                      }
+                    >
+                      Comment
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "height": 24,
+                        "justifyContent": "space-between",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "alignItems": "center",
+                          "height": 20,
+                          "justifyContent": "center",
+                          "width": 20,
+                        }
+                      }
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        selectable={false}
+                        style={
+                          [
+                            {
+                              "color": undefined,
+                              "fontSize": 16,
+                            },
+                            undefined,
+                            {
+                              "fontFamily": "FontAwesome",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            {},
+                          ]
+                        }
+                      >
+                        
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "fontWeight": "600",
+                        }
+                      }
+                    >
+                      Send
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "backgroundColor": "#fff",
+              "marginBottom": 16,
+              "padding": 16,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "flexDirection": "row",
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Image
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                source={
+                  {
+                    "uri": "https://randomuser.me/api/portraits/thumb/men/1.jpg",
+                  }
+                }
+                style={
+                  [
+                    {
+                      "height": 24,
+                      "width": 24,
+                    },
+                    {
+                      "height": 30,
+                      "width": 30,
+                    },
+                    false,
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                {
+                  "flex": 1,
+                  "marginLeft": 4,
+                }
+              }
+            >
+              <Text>
+                Alice
+              </Text>
+              <Text>
+                02-03-22
+              </Text>
+            </View>
+            <View
+              style={{}}
+            >
+              <Text
+                allowFontScaling={false}
+                selectable={false}
+                style={
+                  [
+                    {
+                      "color": undefined,
+                      "fontSize": 12,
+                    },
+                    undefined,
+                    {
+                      "fontFamily": "Entypo",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              {
+                "marginTop": 8,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontSize": 14,
+                  "lineHeight": 16,
+                }
+              }
+            >
+              In this article, we provide practical advice for eating healthy while sticking to a tight budget.
+            </Text>
+            <View
+              style={
+                {
+                  "backgroundColor": "#f8f9f9",
+                  "marginHorizontal": -16,
+                  "marginTop": 8,
+                  "paddingBottom": 16,
+                }
+              }
+            >
+              <Image
+                source={
+                  {
+                    "uri": "https://picsum.photos/id/19/600/300",
+                  }
+                }
+                style={
+                  {
+                    "height": 220,
+                    "width": "100%",
+                  }
+                }
+              />
+              <Text
+                style={
+                  {
+                    "fontWeight": "700",
+                    "padding": 16,
+                  }
+                }
+              >
+                10 Tips for Eating Healthy on a Budget
+              </Text>
+            </View>
+          </View>
+          <View>
+            <View
+              style={
+                {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "paddingVertical": 8,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "backgroundColor": "#1566c2",
+                      "borderRadius": 12,
+                      "height": 20,
+                      "justifyContent": "center",
+                      "marginRight": 8,
+                      "width": 20,
+                    }
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    selectable={false}
+                    style={
+                      [
+                        {
+                          "color": "#fff",
+                          "fontSize": 12,
+                        },
+                        undefined,
+                        {
+                          "fontFamily": "anticon",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <Text>
+                  23
+                </Text>
+              </View>
+              <View>
+                <Text>
+                  23 comments
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "backgroundColor": "#f3f2ee",
+                  "height": 1,
+                }
+              }
+            />
+            <View>
+              <View
+                style={
+                  {
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "padding": 4,
+                  }
+                }
+              >
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "height": 24,
+                        "justifyContent": "space-between",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "alignItems": "center",
+                          "height": 20,
+                          "justifyContent": "center",
+                          "width": 20,
+                        }
+                      }
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        selectable={false}
+                        style={
+                          [
+                            {
+                              "color": undefined,
+                              "fontSize": 16,
+                            },
+                            undefined,
+                            {
+                              "fontFamily": "anticon",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            {},
+                          ]
+                        }
+                      >
+                        
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "fontWeight": "600",
+                        }
+                      }
+                    >
+                      Like
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "height": 24,
+                        "justifyContent": "space-between",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "alignItems": "center",
+                          "height": 20,
+                          "justifyContent": "center",
+                          "width": 20,
+                        }
+                      }
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        selectable={false}
+                        style={
+                          [
+                            {
+                              "color": undefined,
+                              "fontSize": 16,
+                            },
+                            undefined,
+                            {
+                              "fontFamily": "fontcustom",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            {},
+                          ]
+                        }
+                      >
+                        
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "fontWeight": "600",
+                        }
+                      }
+                    >
+                      Repost
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "height": 24,
+                        "justifyContent": "space-between",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "alignItems": "center",
+                          "height": 20,
+                          "justifyContent": "center",
+                          "width": 20,
+                        }
+                      }
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        selectable={false}
+                        style={
+                          [
+                            {
+                              "color": undefined,
+                              "fontSize": 16,
+                            },
+                            undefined,
+                            {
+                              "fontFamily": "FontAwesome",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            {},
+                          ]
+                        }
+                      >
+                        
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "fontWeight": "600",
+                        }
+                      }
+                    >
+                      Comment
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "height": 24,
+                        "justifyContent": "space-between",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "alignItems": "center",
+                          "height": 20,
+                          "justifyContent": "center",
+                          "width": 20,
+                        }
+                      }
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        selectable={false}
+                        style={
+                          [
+                            {
+                              "color": undefined,
+                              "fontSize": 16,
+                            },
+                            undefined,
+                            {
+                              "fontFamily": "FontAwesome",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            {},
+                          ]
+                        }
+                      >
+                        
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "fontWeight": "600",
+                        }
+                      }
+                    >
+                      Send
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "backgroundColor": "#fff",
+              "marginBottom": 16,
+              "padding": 16,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "flexDirection": "row",
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Image
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                source={
+                  {
+                    "uri": "https://randomuser.me/api/portraits/thumb/men/1.jpg",
+                  }
+                }
+                style={
+                  [
+                    {
+                      "height": 24,
+                      "width": 24,
+                    },
+                    {
+                      "height": 30,
+                      "width": 30,
+                    },
+                    false,
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                {
+                  "flex": 1,
+                  "marginLeft": 4,
+                }
+              }
+            >
+              <Text>
+                Alice
+              </Text>
+              <Text>
+                28-02-22
+              </Text>
+            </View>
+            <View
+              style={{}}
+            >
+              <Text
+                allowFontScaling={false}
+                selectable={false}
+                style={
+                  [
+                    {
+                      "color": undefined,
+                      "fontSize": 12,
+                    },
+                    undefined,
+                    {
+                      "fontFamily": "Entypo",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              {
+                "marginTop": 8,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontSize": 14,
+                  "lineHeight": 16,
+                }
+              }
+            >
+              In this article, we take a deep dive into the Great Barrier Reef, one of the world's most breathtaking natural wonders.
+            </Text>
+            <View
+              style={
+                {
+                  "backgroundColor": "#f8f9f9",
+                  "marginHorizontal": -16,
+                  "marginTop": 8,
+                  "paddingBottom": 16,
+                }
+              }
+            >
+              <Image
+                source={
+                  {
+                    "uri": "https://picsum.photos/id/18/600/300",
+                  }
+                }
+                style={
+                  {
+                    "height": 220,
+                    "width": "100%",
+                  }
+                }
+              />
+              <Text
+                style={
+                  {
+                    "fontWeight": "700",
+                    "padding": 16,
+                  }
+                }
+              >
+                Exploring the Wonders of the Great Barrier Reef
+              </Text>
+            </View>
+          </View>
+          <View>
+            <View
+              style={
+                {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "paddingVertical": 8,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "backgroundColor": "#1566c2",
+                      "borderRadius": 12,
+                      "height": 20,
+                      "justifyContent": "center",
+                      "marginRight": 8,
+                      "width": 20,
+                    }
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    selectable={false}
+                    style={
+                      [
+                        {
+                          "color": "#fff",
+                          "fontSize": 12,
+                        },
+                        undefined,
+                        {
+                          "fontFamily": "anticon",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+                <Text>
+                  18
+                </Text>
+              </View>
+              <View>
+                <Text>
+                  17 comments
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "backgroundColor": "#f3f2ee",
+                  "height": 1,
+                }
+              }
+            />
+            <View>
+              <View
+                style={
+                  {
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "padding": 4,
+                  }
+                }
+              >
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "height": 24,
+                        "justifyContent": "space-between",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "alignItems": "center",
+                          "height": 20,
+                          "justifyContent": "center",
+                          "width": 20,
+                        }
+                      }
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        selectable={false}
+                        style={
+                          [
+                            {
+                              "color": "#1566c2",
+                              "fontSize": 16,
+                            },
+                            undefined,
+                            {
+                              "fontFamily": "anticon",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            {},
+                          ]
+                        }
+                      >
+                        
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "fontWeight": "600",
+                        }
+                      }
+                    >
+                      Like
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "height": 24,
+                        "justifyContent": "space-between",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "alignItems": "center",
+                          "height": 20,
+                          "justifyContent": "center",
+                          "width": 20,
+                        }
+                      }
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        selectable={false}
+                        style={
+                          [
+                            {
+                              "color": undefined,
+                              "fontSize": 16,
+                            },
+                            undefined,
+                            {
+                              "fontFamily": "fontcustom",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            {},
+                          ]
+                        }
+                      >
+                        
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "fontWeight": "600",
+                        }
+                      }
+                    >
+                      Repost
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "height": 24,
+                        "justifyContent": "space-between",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "alignItems": "center",
+                          "height": 20,
+                          "justifyContent": "center",
+                          "width": 20,
+                        }
+                      }
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        selectable={false}
+                        style={
+                          [
+                            {
+                              "color": undefined,
+                              "fontSize": 16,
+                            },
+                            undefined,
+                            {
+                              "fontFamily": "FontAwesome",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            {},
+                          ]
+                        }
+                      >
+                        
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "fontWeight": "600",
+                        }
+                      }
+                    >
+                      Comment
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "height": 24,
+                        "justifyContent": "space-between",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "alignItems": "center",
+                          "height": 20,
+                          "justifyContent": "center",
+                          "width": 20,
+                        }
+                      }
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        selectable={false}
+                        style={
+                          [
+                            {
+                              "color": undefined,
+                              "fontSize": 16,
+                            },
+                            undefined,
+                            {
+                              "fontFamily": "FontAwesome",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            {},
+                          ]
+                        }
+                      >
+                        
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "fontWeight": "600",
+                        }
+                      }
+                    >
+                      Send
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
