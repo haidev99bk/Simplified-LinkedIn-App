@@ -2,7 +2,7 @@ import React, {useCallback} from 'react';
 import ArticleListLayout from '../../components/layouts/ArticlesListLayout/ArticleListLayout';
 import useArticles from '../../hooks/useArticles';
 
-const FollowerArticles = ({navigation, route}) => {
+const MyArticles = ({navigation, route}) => {
   const [loginedUser, ownerInfo, articles] = useArticles(route?.params?.userId);
 
   const goBack = useCallback(() => {
@@ -11,6 +11,7 @@ const FollowerArticles = ({navigation, route}) => {
 
   return (
     <ArticleListLayout
+      testID={'my-articles-screen'}
       loginedUser={loginedUser}
       articles={articles}
       articlesOwner={ownerInfo}
@@ -21,4 +22,4 @@ const FollowerArticles = ({navigation, route}) => {
   );
 };
 
-export default FollowerArticles;
+export default MyArticles;

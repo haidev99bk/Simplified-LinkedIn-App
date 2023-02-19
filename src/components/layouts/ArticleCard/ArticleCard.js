@@ -4,7 +4,7 @@ import styles from './styles';
 import ArticleActionsBottomBar from '../../organisms/ArticleActionsBottomBar';
 import ArticleHeaderBar from '../../organisms/ArticleHeaderBar';
 
-export default function ArticleCard(props) {
+const ArticleCard = props => {
   const {user, article, handleLike, hasLiked} = props;
   var dateAr = article.publicationDate.split('-');
   var newDate = dateAr[2] + '-' + dateAr[1] + '-' + dateAr[0].slice(-2);
@@ -70,4 +70,6 @@ export default function ArticleCard(props) {
       />
     </View>
   );
-}
+};
+
+export default React.memo(ArticleCard);

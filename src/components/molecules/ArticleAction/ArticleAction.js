@@ -8,7 +8,7 @@ import React from 'react';
 import styles from './styles';
 import Icon from '../../atoms/Icon';
 
-export default function ArticleAction(props) {
+const ArticleAction = props => {
   const {iconFamily, iconName, iconColor, label, onPress} = props;
   return (
     <TouchableOpacity onPress={onPress}>
@@ -25,4 +25,6 @@ export default function ArticleAction(props) {
       </View>
     </TouchableOpacity>
   );
-}
+};
+
+export default React.memo(ArticleAction);

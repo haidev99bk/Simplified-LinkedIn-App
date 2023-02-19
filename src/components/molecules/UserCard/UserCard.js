@@ -5,11 +5,16 @@ import AvatarIcon from '../../atoms/AvatarIcon';
 import fontWeight from '../../../styles/fontWeight';
 import {typography} from '../../../styles/typography';
 
-export default function UserCard(props) {
-  const {name, age, avatar, address, email, onPress} = props;
+const UserCard = props => {
+  const {name, age, avatar, address, email, onPress, testID} = props;
+
+  console.log('testID in UserCard => ', testID);
 
   return (
-    <TouchableOpacity style={styles.container} onPress={onPress}>
+    <TouchableOpacity
+      testID={testID}
+      style={styles.container}
+      onPress={onPress}>
       <View style={styles.avatarContainer}>
         <AvatarIcon source={{uri: avatar}} size={60} />
       </View>
@@ -27,4 +32,6 @@ export default function UserCard(props) {
       </View>
     </TouchableOpacity>
   );
-}
+};
+
+export default React.memo(UserCard);

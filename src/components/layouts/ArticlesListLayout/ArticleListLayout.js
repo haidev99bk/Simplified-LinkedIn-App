@@ -14,9 +14,8 @@ const ArticleListLayout = props => {
     handleLike,
     articlesLiked,
     navigation,
+    testID,
   } = props;
-
-  console.log('articles here => ', articles);
 
   const _handleLike = useCallback(
     articleId => {
@@ -27,9 +26,10 @@ const ArticleListLayout = props => {
     [loginedUser, articlesOwner, handleLike],
   );
 
-  const renderItem = ({item}) => {
+  const renderItem = ({item, index}) => {
     return (
       <ArticleCard
+        tesID={'article-' + index}
         canLike={loginedUser.userId !== articlesOwner.userId}
         handleLike={_handleLike}
         user={articlesOwner}
@@ -41,6 +41,7 @@ const ArticleListLayout = props => {
 
   return (
     <DefaultLayout
+      testID={testID}
       style={styles.container}
       title={title}
       goBack={goBack}
@@ -54,4 +55,4 @@ const ArticleListLayout = props => {
   );
 };
 
-export default ArticleListLayout;
+export default React.memo(ArticleListLayout);
