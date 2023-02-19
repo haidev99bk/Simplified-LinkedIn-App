@@ -8,8 +8,6 @@ import {typography} from '../../../styles/typography';
 const UserCard = props => {
   const {name, age, avatar, address, email, onPress, testID} = props;
 
-  console.log('testID in UserCard => ', testID);
-
   return (
     <TouchableOpacity
       testID={testID}

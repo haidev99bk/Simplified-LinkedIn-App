@@ -8,8 +8,6 @@ export default function DefaultLayout(props) {
   const {children, style, showBackButton, title, goBack, navigation, testID} =
     props;
 
-  console.log('testID DefaultLayout => ', testID);
-
   const paddingTopStyle = {
     paddingTop: deviceHasNotch ? 42 : 0,
   };
