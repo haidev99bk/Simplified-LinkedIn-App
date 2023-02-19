@@ -6,16 +6,17 @@
 
 # How to run this app
 
-After cloning this app, checkout the branch: dev-main, then do the following steps:
+After cloning this app, then do the following steps :
 
-- **Install dependencies**
-  npm i
-  npm i --dev
+- **Install dependencies:**
 
-- **Android**: npm run android
-- **IOS**: npm run ios
-- **Unit test**: npm run test
-- **E2E test**:
+  - npm i
+  - npm i --dev
+
+- **Run Android**: npm run android
+- **Run IOS**: npm run ios
+- **Run Unit test**: npm run test
+- **Run E2E test**:
   - Android:
     - npm run e2e:build-android
     - npm run start (in other terminal)
