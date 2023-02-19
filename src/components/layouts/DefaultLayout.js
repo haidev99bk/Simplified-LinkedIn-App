@@ -1,11 +1,14 @@
-import {View, StyleSheet, StatusBar} from 'react-native';
+import {View, StyleSheet} from 'react-native';
 import React from 'react';
 import color from '../../styles/colors';
 import {deviceHasNotch} from '../../utils/common';
 import ScreenHeader from '../organisms/ScreenHeader';
 
 export default function DefaultLayout(props) {
-  const {children, style, showBackButton, title, goBack, navigation} = props;
+  const {children, style, showBackButton, title, goBack, navigation, testID} =
+    props;
+
+  console.log('testID DefaultLayout => ', testID);
 
   const paddingTopStyle = {
     paddingTop: deviceHasNotch ? 42 : 0,
@@ -20,7 +23,7 @@ export default function DefaultLayout(props) {
   };
 
   return (
-    <View style={[styles.container, paddingTopStyle, style]}>
+    <View testID={testID} style={[styles.container, paddingTopStyle, style]}>
       <ScreenHeader
         showBackButton={showBackButton}
         title={title}

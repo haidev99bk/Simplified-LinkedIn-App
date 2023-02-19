@@ -28,6 +28,7 @@ const FollowerArticles = ({navigation, route}) => {
 
   return (
     <ArticleListLayout
+      testID={'followers-articles'}
       loginedUser={loginedUser}
       articles={articles}
       articlesOwner={ownerInfo}

@@ -1,0 +1,338 @@
+INFO    | Android emulator version 31.3.14.0 (build_id 9322596) (CL:N/A)
+INFO    | Found AVD name 'Pixel3_API_30'
+INFO    | Found AVD target architecture: arm64
+INFO    | argv[0]: '/Users/nguyenviethai/Library/Android/sdk/emulator/emulator'; program directory: '/Users/nguyenviethai/Library/Android/sdk/emulator'
+VERBOSE |  Found directory: /Users/nguyenviethai/Library/Android/sdk/system-images/android-30/google_apis_playstore/arm64-v8a/
+emulator: INFO: Found systemPath /Users/nguyenviethai/Library/Android/sdk/system-images/android-30/google_apis_playstore/arm64-v8a/
+WARNING | unexpected system image feature string, emulator might not function correctly, please try updating the emulator.
+WARNING | cannot add library /Users/nguyenviethai/Library/Android/sdk/emulator/qemu/darwin-aarch64/lib64/vulkan/libvulkan.dylib: failed
+INFO    | Duplicate loglines will be removed, if you wish to see each indiviudal line launch with the -log-nofilter flag.
+VERBOSE | autoconfig: -skin 1080x2160
+VERBOSE | autoconfig: -skindir (null)
+VERBOSE | Unexpected feature list:
+VERBOSE | Vulkan
+VERBOSE | autoconfig: -kernel /Users/nguyenviethai/Library/Android/sdk/system-images/android-30/google_apis_playstore/arm64-v8a//kernel-ranchu
+VERBOSE | Target arch = 'arm64'
+VERBOSE | Auto-detect: Kernel image requires new device naming scheme.
+VERBOSE | Auto-detect: Kernel does not support YAFFS2 partitions.
+VERBOSE | autoconfig: -ramdisk /Users/nguyenviethai/Library/Android/sdk/system-images/android-30/google_apis_playstore/arm64-v8a//ramdisk.img
+VERBOSE | Using initial system image: /Users/nguyenviethai/Library/Android/sdk/system-images/android-30/google_apis_playstore/arm64-v8a//system.img
+VERBOSE | Using initial vendor image: /Users/nguyenviethai/Library/Android/sdk/system-images/android-30/google_apis_playstore/arm64-v8a//vendor.img
+VERBOSE | autoconfig: -data /Users/nguyenviethai/.android/avd/Pixel3_API_30.avd/userdata-qemu.img
+VERBOSE | autoconfig: -initdata /Users/nguyenviethai/.android/avd/Pixel3_API_30.avd/userdata.img
+VERBOSE | autoconfig: -cache /Users/nguyenviethai/.android/avd/Pixel3_API_30.avd/cache.img
+VERBOSE | INFO: ignore sdcard for arm at api level >= 30
+VERBOSE | Increasing RAM size to 2048MB
+VERBOSE | VM heap size 228MB is below hardware specified minimum of 512MB,setting it to that value
+VERBOSE | System image is read only
+VERBOSE | Found 2 DNS servers:
+VERBOSE | 	8.8.8.8
+VERBOSE | 	8.8.4.4
+VERBOSE | found magic skin width=1080 height=2160 bpp=16
+
+VERBOSE | Requested console port 13764: Inferring adb port 13765.
+VERBOSE | CPU Acceleration: working
+VERBOSE | CPU Acceleration status: Hypervisor.Framework OS X Version 12.5
+VERBOSE | handleCpuAcceleration: feature check for hvf
+VERBOSE | registered 'boot-properties' qemud service
+VERBOSE | Adding boot property: 'qemu.cmdline' = 'androidboot.logcat=*:V androidboot.consolepipe=qemu_pipe,pipe:logcat'
+VERBOSE | Adding boot property: 'qemu.logcat' = 'start'
+INFO    | Warning: QMetaObject::connectSlotsByName: No matching signal for on_new_posture_requested(int) ((null):0, (null))
+
+INFO    | Warning: QMetaObject::connectSlotsByName: No matching signal for on_dismiss_posture_selection_dialog() ((null):0, (null))
+
+INFO    | Warning: QMetaObject::connectSlotsByName: No matching signal for on_new_resizable_requested(PresetEmulatorSizeType) ((null):0, (null))
+
+INFO    | Warning: QMetaObject::connectSlotsByName: No matching signal for on_dismiss_resizable_dialog() ((null):0, (null))
+
+VERBOSE | GPU emulation enabled using 'host' mode
+VERBOSE | Initializing hardware OpenGLES emulation support
+VERBOSE | create display 0
+VERBOSE | setDisplayPose 0 x 0 y 0 w 1080 h 2160 dpi 0
+INFO    | added library /Users/nguyenviethai/Library/Android/sdk/emulator/lib64/vulkan/libvulkan.dylib
+INFO    | configAndStartRenderer: setting vsync to 60 hz
+VERBOSE | INFO: ignore sdcard for arm at api level >= 30
+VERBOSE | Found 2 DNS servers:
+VERBOSE | 	8.8.8.8
+VERBOSE | 	8.8.4.4
+INFO    | Content of hardware configuration file:
+INFO    | 	hw.cpu.arch = arm64
+INFO    | 	hw.cpu.ncore = 4
+INFO    | 	hw.ramSize = 2048
+INFO    | 	hw.screen = multi-touch
+INFO    | 	hw.mainKeys = false
+INFO    | 	hw.trackBall = false
+INFO    | 	hw.keyboard = true
+INFO    | 	hw.keyboard.lid = false
+INFO    | 	hw.keyboard.charmap = qwerty2
+INFO    | 	hw.dPad = false
+INFO    | 	hw.rotaryInput = false
+INFO    | 	hw.gsmModem = true
+INFO    | 	hw.gps = true
+INFO    | 	hw.battery = true
+INFO    | 	hw.accelerometer = true
+INFO    | 	hw.gyroscope = true
+INFO    | 	hw.audioInput = true
+INFO    | 	hw.audioOutput = true
+INFO    | 	hw.sdCard = true
+INFO    | 	disk.cachePartition = true
+INFO    | 	disk.cachePartition.path = /Users/nguyenviethai/.android/avd/Pixel3_API_30.avd/cache.img
+INFO    | 	disk.cachePartition.size = 66m
+INFO    | 	test.quitAfterBootTimeOut = -1
+INFO    | 	test.delayAdbTillBootComplete = 0
+INFO    | 	test.monitorAdb = 0
+INFO    | 	hw.lcd.width = 1080
+INFO    | 	hw.lcd.height = 2160
+INFO    | 	hw.lcd.depth = 16
+INFO    | 	hw.lcd.density = 440
+INFO    | 	hw.lcd.backlight = true
+INFO    | 	hw.lcd.vsync = 60
+INFO    | 	hw.gltransport = pipe
+INFO    | 	hw.gltransport.asg.writeBufferSize = 1048576
+INFO    | 	hw.gltransport.asg.writeStepSize = 4096
+INFO    | 	hw.gltransport.asg.dataRingSize = 32768
+INFO    | 	hw.gltransport.drawFlushInterval = 800
+INFO    | 	hw.displayRegion.0.1.xOffset = -1
+INFO    | 	hw.displayRegion.0.1.yOffset = -1
+INFO    | 	hw.displayRegion.0.1.width = 0
+INFO    | 	hw.displayRegion.0.1.height = 0
+INFO    | 	hw.displayRegion.0.2.xOffset = -1
+INFO    | 	hw.displayRegion.0.2.yOffset = -1
+INFO    | 	hw.displayRegion.0.2.width = 0
+INFO    | 	hw.displayRegion.0.2.height = 0
+INFO    | 	hw.displayRegion.0.3.xOffset = -1
+INFO    | 	hw.displayRegion.0.3.yOffset = -1
+INFO    | 	hw.displayRegion.0.3.width = 0
+INFO    | 	hw.displayRegion.0.3.height = 0
+INFO    | 	hw.display1.width = 0
+INFO    | 	hw.display1.height = 0
+INFO    | 	hw.display1.density = 0
+INFO    | 	hw.display1.xOffset = -1
+INFO    | 	hw.display1.yOffset = -1
+INFO    | 	hw.display1.flag = 0
+INFO    | 	hw.display2.width = 0
+INFO    | 	hw.display2.height = 0
+INFO    | 	hw.display2.density = 0
+INFO    | 	hw.display2.xOffset = -1
+INFO    | 	hw.display2.yOffset = -1
+INFO    | 	hw.display2.flag = 0
+INFO    | 	hw.display3.width = 0
+INFO    | 	hw.display3.height = 0
+INFO    | 	hw.display3.density = 0
+INFO    | 	hw.display3.xOffset = -1
+INFO    | 	hw.display3.yOffset = -1
+INFO    | 	hw.display3.flag = 0
+INFO    | 	hw.multi_display_window = false
+INFO    | 	hw.gpu.enabled = true
+INFO    | 	hw.gpu.mode = host
+INFO    | 	hw.initialOrientation = Portrait
+INFO    | 	hw.camera.back = virtualscene
+INFO    | 	hw.camera.front = emulated
+INFO    | 	vm.heapSize = 512
+INFO    | 	hw.sensors.light = true
+INFO    | 	hw.sensors.pressure = true
+INFO    | 	hw.sensors.humidity = true
+INFO    | 	hw.sensors.proximity = true
+INFO    | 	hw.sensors.magnetic_field = true
+INFO    | 	hw.sensors.magnetic_field_uncalibrated = true
+INFO    | 	hw.sensors.gyroscope_uncalibrated = true
+INFO    | 	hw.sensors.orientation = true
+INFO    | 	hw.sensors.temperature = true
+INFO    | 	hw.sensors.rgbclight = false
+INFO    | 	hw.sensor.hinge = false
+INFO    | 	hw.sensor.hinge.count = 0
+INFO    | 	hw.sensor.hinge.type = 0
+INFO    | 	hw.sensor.hinge.sub_type = 0
+INFO    | 	hw.sensor.hinge.fold_to_displayRegion.0.1_at_posture = 1
+INFO    | 	hw.sensor.roll = false
+INFO    | 	hw.sensor.roll.count = 0
+INFO    | 	hw.sensor.roll.resize_to_displayRegion.0.1_at_posture = 6
+INFO    | 	hw.sensor.roll.resize_to_displayRegion.0.2_at_posture = 6
+INFO    | 	hw.sensor.roll.resize_to_displayRegion.0.3_at_posture = 6
+INFO    | 	hw.sensors.heart_rate = false
+INFO    | 	hw.sensors.wrist_tilt = false
+INFO    | 	hw.useext4 = true
+INFO    | 	hw.arc = false
+INFO    | 	hw.arc.autologin = false
+INFO    | 	hw.device.name = pixel_3
+INFO    | 	kernel.path = /Users/nguyenviethai/Library/Android/sdk/system-images/android-30/google_apis_playstore/arm64-v8a//kernel-ranchu
+INFO    | 	kernel.newDeviceNaming = yes
+INFO    | 	kernel.supportsYaffs2 = no
+INFO    | 	disk.ramdisk.path = /Users/nguyenviethai/Library/Android/sdk/system-images/android-30/google_apis_playstore/arm64-v8a//ramdisk.img
+INFO    | 	disk.systemPartition.initPath = /Users/nguyenviethai/Library/Android/sdk/system-images/android-30/google_apis_playstore/arm64-v8a//system.img
+INFO    | 	disk.systemPartition.size = 2492m
+INFO    | 	disk.vendorPartition.initPath = /Users/nguyenviethai/Library/Android/sdk/system-images/android-30/google_apis_playstore/arm64-v8a//vendor.img
+INFO    | 	disk.vendorPartition.size = 800m
+INFO    | 	disk.dataPartition.path = /Users/nguyenviethai/.android/avd/Pixel3_API_30.avd/userdata-qemu.img
+INFO    | 	disk.dataPartition.size = 6g
+INFO    | 	disk.encryptionKeyPartition.path = /Users/nguyenviethai/.android/avd/Pixel3_API_30.avd/encryptionkey.img
+INFO    | 	PlayStore.enabled = true
+INFO    | 	avd.name = Pixel3_API_30
+INFO    | 	avd.id = Pixel3_API_30
+INFO    | 	fastboot.forceColdBoot = false
+INFO    | 	android.sdk.root = /Users/nguyenviethai/Library/Android/sdk
+INFO    | 	android.avd.home = /Users/nguyenviethai/.android/avd
+INFO    | .
+INFO    | QEMU options list:
+INFO    | 	 argv[00] = "/Users/nguyenviethai/Library/Android/sdk/emulator/qemu/darwin-aarch64/qemu-system-aarch64"
+INFO    | 	 argv[01] = "-read-only"
+INFO    | 	 argv[02] = "-dns-server"
+INFO    | 	 argv[03] = "8.8.8.8,8.8.4.4"
+INFO    | 	 argv[04] = "-no-audio"
+INFO    | 	 argv[05] = "-serial"
+INFO    | 	 argv[06] = "null"
+INFO    | 	 argv[07] = "-android-ports"
+INFO    | 	 argv[08] = "13764,13765"
+INFO    | 	 argv[09] = "-cpu"
+INFO    | 	 argv[10] = "cortex-a53"
+INFO    | 	 argv[11] = "-machine"
+INFO    | 	 argv[12] = "type=virt"
+INFO    | 	 argv[13] = "-enable-hvf"
+INFO    | 	 argv[14] = "-smp"
+INFO    | 	 argv[15] = "cores=4"
+INFO    | 	 argv[16] = "-m"
+INFO    | 	 argv[17] = "2048"
+INFO    | 	 argv[18] = "-lcd-density"
+INFO    | 	 argv[19] = "440"
+INFO    | 	 argv[20] = "-nodefaults"
+INFO    | 	 argv[21] = "-kernel"
+INFO    | 	 argv[22] = "/Users/nguyenviethai/Library/Android/sdk/system-images/android-30/google_apis_playstore/arm64-v8a//kernel-ranchu"
+INFO    | 	 argv[23] = "-initrd"
+INFO    | 	 argv[24] = "/Users/nguyenviethai/Library/Android/sdk/system-images/android-30/google_apis_playstore/arm64-v8a//ramdisk.img"
+INFO    | 	 argv[25] = "-drive"
+INFO    | 	 argv[26] = "index=0,id=vendor,if=none,file=/Users/nguyenviethai/Library/Android/sdk/system-images/android-30/google_apis_playstore/arm64-v8a//vendor.img,read-only"
+INFO    | 	 argv[27] = "-device"
+INFO    | 	 argv[28] = "virtio-blk-device,drive=vendor"
+INFO    | 	 argv[29] = "-drive"
+INFO    | 	 argv[30] = "index=1,id=encrypt,if=none,file=/Users/nguyenviethai/.android/avd/Pixel3_API_30.avd/encryptionkey.img.qcow2,overlap-check=none,cache=unsafe,l2-cache-size=1048576"
+INFO    | 	 argv[31] = "-device"
+INFO    | 	 argv[32] = "virtio-blk-device,drive=encrypt"
+INFO    | 	 argv[33] = "-drive"
+INFO    | 	 argv[34] = "index=2,id=userdata,if=none,file=/Users/nguyenviethai/.android/avd/Pixel3_API_30.avd/userdata-qemu.img.qcow2,overlap-check=none,cache=unsafe,l2-cache-size=1048576"
+INFO    | 	 argv[35] = "-device"
+INFO    | 	 argv[36] = "virtio-blk-device,drive=userdata"
+INFO    | 	 argv[37] = "-drive"
+INFO    | 	 argv[38] = "index=3,id=cache,if=none,file=/Users/nguyenviethai/.android/avd/Pixel3_API_30.avd/cache.img.qcow2,overlap-check=none,cache=unsafe,l2-cache-size=1048576"
+INFO    | 	 argv[39] = "-device"
+INFO    | 	 argv[40] = "virtio-blk-device,drive=cache"
+INFO    | 	 argv[41] = "-drive"
+INFO    | 	 argv[42] = "index=4,id=system,if=none,file=/Users/nguyenviethai/Library/Android/sdk/system-images/android-30/google_apis_playstore/arm64-v8a//system.img,read-only"
+INFO    | 	 argv[43] = "-device"
+INFO    | 	 argv[44] = "virtio-blk-device,drive=system"
+INFO    | 	 argv[45] = "-netdev"
+INFO    | 	 argv[46] = "user,id=mynet"
+INFO    | 	 argv[47] = "-device"
+INFO    | 	 argv[48] = "virtio-net-device,netdev=mynet"
+INFO    | 	 argv[49] = "-device"
+INFO    | 	 argv[50] = "virtio-rng-device"
+INFO    | 	 argv[51] = "-show-cursor"
+INFO    | 	 argv[52] = "-device"
+INFO    | 	 argv[53] = "virtio_input_multi_touch_pci_1"
+INFO    | 	 argv[54] = "-device"
+INFO    | 	 argv[55] = "virtio_input_multi_touch_pci_2"
+INFO    | 	 argv[56] = "-device"
+INFO    | 	 argv[57] = "virtio_input_multi_touch_pci_3"
+INFO    | 	 argv[58] = "-device"
+INFO    | 	 argv[59] = "virtio_input_multi_touch_pci_4"
+INFO    | 	 argv[60] = "-device"
+INFO    | 	 argv[61] = "virtio_input_multi_touch_pci_5"
+INFO    | 	 argv[62] = "-device"
+INFO    | 	 argv[63] = "virtio_input_multi_touch_pci_6"
+INFO    | 	 argv[64] = "-device"
+INFO    | 	 argv[65] = "virtio_input_multi_touch_pci_7"
+INFO    | 	 argv[66] = "-device"
+INFO    | 	 argv[67] = "virtio_input_multi_touch_pci_8"
+INFO    | 	 argv[68] = "-device"
+INFO    | 	 argv[69] = "virtio_input_multi_touch_pci_9"
+INFO    | 	 argv[70] = "-device"
+INFO    | 	 argv[71] = "virtio_input_multi_touch_pci_10"
+INFO    | 	 argv[72] = "-device"
+INFO    | 	 argv[73] = "virtio_input_multi_touch_pci_11"
+INFO    | 	 argv[74] = "-device"
+INFO    | 	 argv[75] = "virtio-keyboard-pci"
+INFO    | 	 argv[76] = "-L"
+INFO    | 	 argv[77] = "/Users/nguyenviethai/Library/Android/sdk/emulator/lib/pc-bios"
+INFO    | 	 argv[78] = "-soundhw"
+INFO    | 	 argv[79] = "hda"
+INFO    | 	 argv[80] = "-append"
+INFO    | 	 argv[81] = "no_timer_check keep_bootcon earlyprintk=ttyAMA0 console=0 cma=292M@0-4G ndns=2 mac80211_hwsim.channels=2 loop.max_part=7 printk.devkmsg=on qemu=1 androidboot.hardware=ranchu androidboot.serialno=EMULATOR31X3X14X0 android.bootanim=0 qemu.gles=1 qemu.settings.system.screen_off_timeout=2147483647 qemu.encrypt=1 qemu.vsync=60 qemu.gltransport=pipe qemu.gltransport.drawFlushInterval=800 qemu.opengles.version=196608 qemu.uirenderer=skiagl qemu.dalvik.vm.heapsize=512m qemu.camera_protocol_ver=1 qemu.camera_hq_edge_processing=0 androidboot.vbmeta.size=6784 androidboot.vbmeta.hash_alg=sha256 androidboot.vbmeta.digest=5b0660ee07ebdd54b3f7aeffd167414d1dc327187450044a28d14525d0d6c9c0 androidboot.boot_devices=a003600.virtio_mmio qemu.wifi=1 android.qemud=1 qemu.avd_name=Pixel3_API_30"
+INFO    | 	 argv[82] = "-android-hw"
+INFO    | 	 argv[83] = "/tmp/android-nguyenviethai/emulator-rPx1Au"
+INFO    | Concatenated QEMU options: /Users/nguyenviethai/Library/Android/sdk/emulator/qemu/darwin-aarch64/qemu-system-aarch64 -read-only -dns-server 8.8.8.8,8.8.4.4 -no-audio -serial null -android-ports 13764,13765 -cpu cortex-a53 -machine type=virt -enable-hvf -smp cores=4 -m 2048 -lcd-density 440 -nodefaults -kernel /Users/nguyenviethai/Library/Android/sdk/system-images/android-30/google_apis_playstore/arm64-v8a//kernel-ranchu -initrd /Users/nguyenviethai/Library/Android/sdk/system-images/android-30/google_apis_playstore/arm64-v8a//ramdisk.img -drive index=0,id=vendor,if=none,file=/Users/nguyenviethai/Library/Android/sdk/system-images/android-30/google_apis_playstore/arm64-v8a//vendor.img,read-only -device virtio-blk-device,drive=vendor -drive index=1,id=encrypt,if=none,file=/Users/nguyenviethai/.android/avd/Pixel3_API_30.avd/encryptionkey.img.qcow2,overlap-check=none,cache=unsafe,l2-cache-size=1048576 -device virtio-blk-device,drive=encrypt -drive index=2,id=userdata,if=none,file=/Users/nguyenviethai/.android/avd/Pixel3_API_30.avd/userdata-qemu.img.qcow2,overlap-check=none,cache=unsafe,l2-cache-size=1048576 -device virtio-blk-device,drive=userdata -drive index=3,id=cache,if=none,file=/Users/nguyenviethai/.android/avd/Pixel3_API_30.avd/cache.img.qcow2,overlap-check=none,cache=unsafe,l2-cache-size=1048576 -device virtio-blk-device,drive=cache -drive index=4,id=system,if=none,file=/Users/nguyenviethai/Library/Android/sdk/system-images/android-30/google_apis_playstore/arm64-v8a//system.img,read-only -device virtio-blk-device,drive=system -netdev user,id=mynet -device virtio-net-device,netdev=mynet -device virtio-rng-device -show-cursor -device virtio_input_multi_touch_pci_1 -device virtio_input_multi_touch_pci_2 -device virtio_input_multi_touch_pci_3 -device virtio_input_multi_touch_pci_4 -device virtio_input_multi_touch_pci_5 -device virtio_input_multi_touch_pci_6 -device virtio_input_multi_touch_pci_7 -device virtio_input_multi_touch_pci_8 -device virtio_input_multi_touch_pci_9 -device virtio_input_multi_touch
+VERBOSE | Android qemu version 31.3.14.0 (build_id 9322596) (CL:N/A)
+VERBOSE | Starting QEMU main loop
+VERBOSE | Adding boot property: 'ro.opengles.version' = '196608'
+VERBOSE | Adding boot property: 'qemu.sf.fake_camera' = 'front'
+VERBOSE | Adding boot property: 'qemu.adb.secure' = '1'
+VERBOSE | Adding boot property: 'dalvik.vm.heapsize' = '512m'
+VERBOSE | Adding boot property: 'qemu.hw.mainkeys' = '0'
+VERBOSE | Adding boot property: 'qemu.sf.lcd_density' = '440'
+VERBOSE | goldfish_events.have-dpad: false
+VERBOSE | goldfish_events.have-trackball: false
+VERBOSE | goldfish_events.have-camera: true
+VERBOSE | goldfish_events.have-keyboard: false
+VERBOSE | goldfish_events.have-lidswitch: false
+VERBOSE | goldfish_events.have-tabletmode: false
+VERBOSE | goldfish_events.have-touch: false
+VERBOSE | goldfish_events.have-multitouch: false
+VERBOSE | Adding boot property: 'net.wifi_mac_prefix' = '13764'
+WARNING | Requested adb port (13765) is outside the recommended range [5555,5586]. ADB may not function properly for the emulator. See -help-port for details.
+VERBOSE | Not using any http proxy
+VERBOSE | Adding boot property: 'qemu.timezone' = 'Asia/Ho_Chi_Minh'
+VERBOSE | android_hw_fingerprint_init: fingerprint qemud listen service initialized
+VERBOSE | emulator_window_fb_rotate
+INFO    | setDisplayConfigs w 1080 h 2160 dpiX 440 dpiY 440
+VERBOSE | config multidisplay with config.ini 0x0 0x0 0x0
+VERBOSE | Path:/Users/nguyenviethai/Library/Android/sdk/platform-tools/adb protocol version: 41
+VERBOSE | Found: 3 adb executables (2x)
+VERBOSE | Found: 3 adb executables
+VERBOSE | Adb: /Users/nguyenviethai/Library/Android/sdk/platform-tools/adb
+VERBOSE | Path:/Users/nguyenviethai/Library/Android/sdk/platform-tools/adb protocol version: 41 (2x)
+VERBOSE | Path:/Users/nguyenviethai/Library/Android/sdk/platform-tools/adb protocol version: 41
+VERBOSE | Warning: QMetaObject::connectSlotsByName: No matching signal for on_rgbcSensorValueWidget_valueChanged() ((null):0, (null))
+ (2x)
+INFO    | Warning: QMetaObject::connectSlotsByName: No matching signal for on_rgbcSensorValueWidget_valueChanged() ((null):0, (null))
+
+INFO    | Warning: QMetaObject::connectSlotsByName: No matching signal for on_posture_valueChanged(int) ((null):0, (null))
+
+INFO    | Wait for emulator (pid 6152) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+
+WARNING | Discarding the changed state (command-line flag).
+INFO    | Info: 
+
+GLImplementation: 
+Surface Type: OpenGL
+Surface Profile: CoreProfile
+Surface Version: 4.1
+Using Default SG Backend: no
+Using Software Dynamic GL: no
+Using Angle: no
+
+Init Parameters:
+  *  application-name Emulator 
+  *  browser-subprocess-path /Users/nguyenviethai/Library/Android/sdk/emulator/lib64/qt/libexec/QtWebEngineProcess 
+  *  disable-features DnsOverHttpsUpgrade,ConsolidatedMovementXY,InstalledApp,BackgroundFetch,WebOTP,WebPayments,WebUSB,PictureInPicture 
+  *  disable-gpu  
+  *  disable-speech-api  
+  *  enable-features TracingServiceInProcess 
+  *  enable-threaded-compositing  
+ ((null):0, (null))
+
+INFO    | Warning: No functional TLS backend was found ((null):0, (null))
+
+INFO    | Warning: No functional TLS backend was found ((null):0, (null))
+ (2x)
+INFO    | Warning: No TLS backend is available ((null):0, (null))
+
+INFO    | Warning: No functional TLS backend was found ((null):0, (null))
+
+INFO    | Warning: No functional TLS backend was found ((null):0, (null))
+ (3x)
+INFO    | Warning: No TLS backend is available ((null):0, (null))
+
+INFO    | Warning: No functional TLS backend was found ((null):0, (null))
+
+INFO    | Done with QEMU main loop (2x)
+VERBOSE | Done with QEMU main loop
+VERBOSE | User configuration saved to /Users/nguyenviethai/.android/avd/Pixel3_API_30.avd/emulator-user.ini
+VERBOSE | Adb transition disconnected -> disconnected

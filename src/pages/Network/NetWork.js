@@ -40,6 +40,7 @@ const NetWork = props => {
   const renderItem = ({item}) => {
     return (
       <UserCard
+        testID={'user-card-' + item?.userId}
         name={item?.name}
         avatar={item?.avatar}
         email={item?.email}
@@ -55,9 +56,13 @@ const NetWork = props => {
   };
 
   return (
-    <DefaultLayout showBackButton={false} title={'Network'}>
+    <DefaultLayout
+      testID="network-screen"
+      showBackButton={false}
+      title={'Network'}>
       <View style={styles.container}>
         <SectionList
+          testID="user-list"
           sections={data}
           renderItem={renderItem}
           keyExtractor={item => item?.userId}

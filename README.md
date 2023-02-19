@@ -6,10 +6,24 @@
 
 # How to run this app
 
-- after clone this app, checkout the branch: dev-main
-- Android: npm run android
-- IOS: npm run ios
-- Unit test: npm run test
+After cloning this app, checkout the branch: dev-main, then do the following steps:
+
+- **Install dependencies**
+  npm i
+  npm i --dev
+
+- **Android**: npm run android
+- **IOS**: npm run ios
+- **Unit test**: npm run test
+- **E2E test**:
+  - Android:
+    - npm run e2e:build-android
+    - npm run start (in other terminal)
+    - npm run e2e:android
+  - Ios:
+    - npm run e2e:build-ios
+    - npm run start (in other terminal)
+    - npm run e2e:ios
 
 # How do I optimize performance for this app ?
 
